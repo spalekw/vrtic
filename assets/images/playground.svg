@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Igralište u vrtiću">
+  <rect width="1200" height="800" fill="#dff8f3"/>
+  <rect x="0" y="590" width="1200" height="210" fill="#66bb6a"/>
+  <circle cx="1020" cy="120" r="70" fill="#ffd54f"/>
+  <rect x="140" y="300" width="320" height="220" rx="20" fill="#ff8a65"/>
+  <rect x="190" y="350" width="220" height="170" rx="18" fill="#ffcc80"/>
+  <rect x="550" y="250" width="260" height="280" rx="20" fill="#4db6ac"/>
+  <rect x="610" y="190" width="140" height="80" rx="40" fill="#80deea"/>
+  <rect x="840" y="340" width="150" height="210" rx="16" fill="#ce93d8"/>
+  <rect x="1010" y="380" width="70" height="170" rx="14" fill="#9575cd"/>
+  <circle cx="915" cy="300" r="42" fill="#ffd1c1"/>
+  <rect x="885" y="340" width="60" height="150" rx="26" fill="#ffb74d"/>
+  <text x="600" y="720" text-anchor="middle" font-family="Nunito, Arial, sans-serif" font-size="42" fill="#fff" font-weight="700">Dvorište za igru i zabavu</text>
+</svg>
