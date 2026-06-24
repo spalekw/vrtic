@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Logo vrtića sa veselim dečjim likom">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="100%" stop-color="#ffe082"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff5252"/>
+      <stop offset="100%" stop-color="#ffca28"/>
+    </linearGradient>
+    <linearGradient id="legs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#26a69a"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="256" cy="256" r="248" fill="url(#bg)"/>
+
+  <!-- Hair -->
+  <g fill="#ffeb3b" stroke="#222" stroke-width="6" stroke-linejoin="round">
+    <path d="M170 155c-16 20-18 42-13 63l-35-18 7 42-36-6 18 35-39 7 28 28-32 23 39 8-10 37 36-9 4 41 31-22 17 36 26-31 26 31 17-36 31 22 4-41 36 9-10-37 39-8-32-23 28-28-39-7 18-35-36 6 7-42-35 18c5-21 3-43-13-63-22 9-35 22-47 42-12-20-25-33-47-42z"/>
+  </g>
+
+  <!-- Head -->
+  <ellipse cx="256" cy="230" rx="75" ry="86" fill="#ffd7c2" stroke="#222" stroke-width="6"/>
+  <!-- Eyes -->
+  <g>
+    <ellipse cx="229" cy="215" rx="14" ry="19" fill="#4fc3f7" stroke="#222" stroke-width="5"/>
+    <ellipse cx="283" cy="215" rx="14" ry="19" fill="#4fc3f7" stroke="#222" stroke-width="5"/>
+    <circle cx="231" cy="219" r="6" fill="#222"/>
+    <circle cx="285" cy="219" r="6" fill="#222"/>
+    <circle cx="227" cy="212" r="2.5" fill="#fff"/>
+    <circle cx="281" cy="212" r="2.5" fill="#fff"/>
+  </g>
+  <!-- Nose -->
+  <ellipse cx="256" cy="242" rx="18" ry="13" fill="#ff8a65" stroke="#222" stroke-width="5"/>
+  <!-- Smile -->
+  <path d="M232 263c9 14 39 14 48 0" fill="none" stroke="#222" stroke-width="6" stroke-linecap="round"/>
+  <path d="M241 272c8 9 22 9 30 0" fill="none" stroke="#e53935" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Arms -->
+  <g stroke="#222" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M182 320c-28 12-46 29-58 52" fill="none"/>
+    <path d="M330 320c28 12 46 29 58 52" fill="none"/>
+  </g>
+  <path d="M118 372c8-15 30-18 42-6l-5 28c-18 8-35-2-37-22z" fill="#ffd7c2" stroke="#222" stroke-width="6"/>
+  <path d="M394 372c-8-15-30-18-42-6l5 28c18 8 35-2 37-22z" fill="#ffd7c2" stroke="#222" stroke-width="6"/>
+
+  <!-- Body -->
+  <path d="M174 298c24-14 40-18 82-18s58 4 82 18v58c-25 15-47 22-82 22s-57-7-82-22z" fill="url(#shirt)" stroke="#222" stroke-width="6"/>
+  <g stroke="#222" stroke-width="6" stroke-linecap="round">
+    <path d="M182 306h148"/>
+    <path d="M176 324h160"/>
+    <path d="M174 342h164"/>
+    <path d="M176 360h160"/>
+  </g>
+
+  <!-- Legs -->
+  <g stroke="#222" stroke-width="6" stroke-linejoin="round">
+    <rect x="198" y="374" width="42" height="92" rx="20" fill="url(#legs)"/>
+    <rect x="272" y="374" width="42" height="92" rx="20" fill="url(#legs)"/>
+  </g>
+  <!-- Stripes on legs -->
+  <g stroke="#ffeb3b" stroke-width="8" stroke-linecap="round">
+    <path d="M206 394h26"/>
+    <path d="M206 416h26"/>
+    <path d="M280 394h26"/>
+    <path d="M280 416h26"/>
+  </g>
+
+  <!-- Shoes -->
+  <path d="M182 465c18-6 45-6 62 0-4 18-19 28-40 28-14 0-24-7-22-28z" fill="#ef6c00" stroke="#222" stroke-width="6"/>
+  <path d="M268 465c18-6 45-6 62 0-4 18-19 28-40 28-14 0-24-7-22-28z" fill="#ef6c00" stroke="#222" stroke-width="6"/>
+
+  <!-- Small label -->
+  <rect x="168" y="430" width="176" height="44" rx="22" fill="#2d9cdb" stroke="#222" stroke-width="6"/>
+  <text x="256" y="460" text-anchor="middle" font-family="Nunito, Arial, sans-serif" font-size="26" font-weight="800" fill="#fff">VRTIĆ</text>
+</svg>
